@@ -1,0 +1,14 @@
+# Java
+target/
+*.log
+
+# Eclipse
+.settings/
+.project
+
+# Intellij
+.idea/
+*.iml
+
+# Vs Code
+.vscode/
