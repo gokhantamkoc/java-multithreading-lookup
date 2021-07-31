@@ -47,6 +47,3 @@ There are following ways to detect a deadlock:
 1. We look and understand the code if we found nested synchronized block or trying to get a lock on a different object or calling a synchronized method from other synchronized method, these reason leads to a deadlock situation.
 2. Another way to detect deadlock is to use the io portal. It allows us to upload a thread dump and analyze it.
 3. We can also use jConsole or VisualVM to detect deadlock. It shows us which threads are getting locked and on which object.
-
-
-	
